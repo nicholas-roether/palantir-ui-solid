@@ -1,0 +1,25 @@
+{
+  "name": "palantir-ui-solid",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "dev": "vite serve dev",
+    "build": "tsup src/index.ts",
+    "prepack": "yarn build"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-solid": "^0.12.1",
+    "prettier": "^2.8.8",
+    "tslib": "^2.5.2",
+    "tsup": "^6.7.0",
+    "tsup-preset-solid": "^0.1.8",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.5"
+  }
+}
