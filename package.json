@@ -1,6 +1,6 @@
 {
   "name": "@nicholas-roether/palantir-ui-solid",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "dev": "vite serve dev",
@@ -8,7 +8,7 @@
     "prepack": "yarn build"
   },
   "devDependencies": {
-    "@nicholas-roether/palantir-ui": "^2.1.0",
+    "@nicholas-roether/palantir-ui": "^2.2.0",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-solid": "^0.12.1",
@@ -25,6 +25,6 @@
     "solid-js": "^1.7.5"
   },
   "peerDependencies": {
-    "@nicholas-roether/palantir-ui": "~2.1.0"
+    "@nicholas-roether/palantir-ui": "~2.2.0"
   }
 }

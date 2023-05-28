@@ -672,7 +672,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nicholas-roether/palantir-ui-solid@workspace:."
   dependencies:
-    "@nicholas-roether/palantir-ui": ^2.1.0
+    "@nicholas-roether/palantir-ui": ^2.2.0
     eslint: ^8.41.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-solid: ^0.12.1
@@ -686,14 +686,14 @@ __metadata:
     vite: ^4.3.9
     vite-plugin-solid: ^2.7.0
   peerDependencies:
-    "@nicholas-roether/palantir-ui": ~2.1.0
+    "@nicholas-roether/palantir-ui": ~2.2.0
   languageName: unknown
   linkType: soft
 
-"@nicholas-roether/palantir-ui@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@nicholas-roether/palantir-ui@npm:2.1.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.1.0%2F2779ccc8340bcd5b3f933ca271b8840b5e339744"
-  checksum: 63f3a437d7c1dd50992f4d26c936e988cec8b079d330fb216b43ffb93186ce484362a16158e92c17e4278e9257b022b3f0fb52836f45991f0a3f86455accff99
+"@nicholas-roether/palantir-ui@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@nicholas-roether/palantir-ui@npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f"
+  checksum: 07311978717fe647239fd60738159e18aaf038c94cae09c9e572d65d807973f69fb8c634b81e2ea7e9d8e0cccaf1f68a8ffcb537c6e3ebf9b468c88e57085bb0
   languageName: node
   linkType: hard
 
