@@ -1,6 +1,6 @@
 {
   "name": "@nicholas-roether/palantir-ui-solid",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "dev": "vite serve dev",
@@ -25,6 +25,6 @@
     "solid-js": "^1.7.5"
   },
   "peerDependencies": {
-    "@nicholas-roether/palantir-ui": "~2.0.0"
+    "@nicholas-roether/palantir-ui": "~2.1.0"
   }
 }
