@@ -13,11 +13,11 @@ function Button({
 }: ButtonProps): JSX.Element {
 	return (
 		<button
-			classList={{
-				...classList,
+			classList={{	
 				"pui-button": true,
 				"pui-large": large,
 				"pui-smoldering": smoldering,
+				...classList,
 			}}
 			{...props}
 		/>

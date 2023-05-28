@@ -12,8 +12,8 @@ function Heading({ size, classList, ...props }: HeadingProps): JSX.Element {
 		<Dynamic
 			component={`h${size}`}
 			classList={{
-				...classList,
 				"pui-heading": true,
+				...classList,	
 			}}
 			{...props}
 		/>
@@ -23,13 +23,13 @@ function Heading({ size, classList, ...props }: HeadingProps): JSX.Element {
 type ParagraphProps = ComponentProps<"p">;
 
 function Paragraph({ classList, ...props }: ParagraphProps): JSX.Element {
-	return <p classList={{ ...classList, "pui-paragraph": true }} {...props} />;
+	return <p classList={{ "pui-paragraph": true, ...classList }} {...props} />;
 }
 
 type SpanProps = ComponentProps<"span">;
 
 function Span({ classList, ...props }: SpanProps): JSX.Element {
-	return <span classList={{ ...classList, "pui-span": true }} {...props} />;
+	return <span classList={{ "pui-span": true, ...classList }} {...props} />;
 }
 
 export { Heading, HeadingProps, Paragraph, ParagraphProps, Span, SpanProps };
