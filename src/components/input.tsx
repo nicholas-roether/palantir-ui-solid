@@ -13,11 +13,13 @@ function TextInput({
 	...props
 }: TextInputProps): JSX.Element {
 	return (
-		<span
-			class={spanClass}
-			classList={{ "pui-input": true, ...classList }}
-		>
-			<input type="text" class={inputClass} classList={inputClassList} {...props} />
+		<span class={spanClass} classList={{ "pui-input": true, ...classList }}>
+			<input
+				type="text"
+				class={inputClass}
+				classList={inputClassList}
+				{...props}
+			/>
 		</span>
 	);
 }
