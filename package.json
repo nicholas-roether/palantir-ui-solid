@@ -4,7 +4,7 @@
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "dev": "vite serve dev",
-    "build": "tsup src/index.ts --dts",
+    "build": "tsup",
     "prepack": "yarn build"
   },
   "devDependencies": {
@@ -26,5 +26,18 @@
   },
   "peerDependencies": {
     "@nicholas-roether/palantir-ui": "~2.2.0"
-  }
+  },
+  "browser": {},
+  "exports": {
+    "solid": "./dist/index.jsx",
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "require": "./dist/index.cjs"
+  },
+  "typesVersions": {},
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts"
 }
