@@ -8,9 +8,11 @@
     "prepack": "yarn build"
   },
   "devDependencies": {
+    "@nicholas-roether/palantir-ui": "^2.0.0",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-solid": "^0.12.1",
+    "npm-css": "^0.2.3",
     "prettier": "^2.8.8",
     "tslib": "^2.5.2",
     "tsup": "^6.7.0",

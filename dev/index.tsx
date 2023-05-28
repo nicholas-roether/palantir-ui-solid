@@ -1,3 +1,6 @@
 import { render } from "solid-js/web";
+import Preview from "./Preview";
 
-render(() => <h1>Hello World</h1>, document.getElementById("root")!);
+import "@nicholas-roether/palantir-ui/styles.css";
+
+render(() => <Preview />, document.getElementById("root")!);

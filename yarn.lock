@@ -668,6 +668,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nicholas-roether/palantir-ui@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@nicholas-roether/palantir-ui@npm:2.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.0.0%2F162202b55b0cbb91e21e2bd13ce619fdfb4f9dad"
+  checksum: ea4582ebf725715119e5839fb14719c2b68a9f3d5ac87cceb83b4c680464ba37e414f2828cd613aba16530c8822a5f9e923dd81af2bf6ae548e7134044fbf5cd
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1214,6 +1221,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"coa@npm:0.3.x":
+  version: 0.3.9
+  resolution: "coa@npm:0.3.9"
+  dependencies:
+    q: ~0.8.10
+  checksum: 11390b2df37e14d7a57abd554beaedead0bd2e571d426ffa95852195d9785cb4eb10c08082d35835cd3cdd9fa054d6ffed37fa0e38d501a283d298449ab2b944
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -1291,6 +1307,17 @@ __metadata:
     shebang-command: ^2.0.0
     which: ^2.0.1
   checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
+  languageName: node
+  linkType: hard
+
+"cssp@npm:1.0.6":
+  version: 1.0.6
+  resolution: "cssp@npm:1.0.6"
+  dependencies:
+    ometajs: ~ 3.1.x
+  bin:
+    cssp: ./bin/cssp
+  checksum: d1ad70e87a83b6fffb260cd85aa7eb1d27aefecf1791dae0f7b9420477492d6524a6e275bd30f41be90d5417fef1bfaf11d2834e90a1d52808c0905aa12d0066
   languageName: node
   linkType: hard
 
@@ -2917,6 +2944,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"npm-css@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "npm-css@npm:0.2.3"
+  dependencies:
+    cssp: 1.0.6
+    optimist: 0.3.5
+    resolve: 0.5.1
+    traverse: 0.6.6
+  bin:
+    npm-css: bin/npm-css
+  checksum: ffaa976c2735f5fcfc8a75e46860fd9615668f47b579931121cad757a301b624a3cd6672766fb0ddd8ee9e12f4739601b91ff81ea9733733f95c7a855ea93234
+  languageName: node
+  linkType: hard
+
 "npm-run-path@npm:^4.0.1":
   version: 4.0.1
   resolution: "npm-run-path@npm:4.0.1"
@@ -2971,6 +3012,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ometajs@npm:~ 3.1.x":
+  version: 3.1.19
+  resolution: "ometajs@npm:3.1.19"
+  dependencies:
+    coa: 0.3.x
+    q: 0.8.x
+    uglify-js: 1.3.x
+  bin:
+    ometajs2js: ./bin/ometajs2js
+  checksum: 223b10bd782708ac3aa56ccc62f97f9757803f1808d7ae11b69c6496a1a2703827186d3c08203e4d0a51a65ee51c5cf9c379d862c0525ef0f010c288d6db6a71
+  languageName: node
+  linkType: hard
+
 "once@npm:^1.3.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0"
@@ -2986,6 +3040,15 @@ __metadata:
   dependencies:
     mimic-fn: ^2.1.0
   checksum: 2478859ef817fc5d4e9c2f9e5728512ddd1dbc9fb7829ad263765bb6d3b91ce699d6e2332eef6b7dff183c2f490bd3349f1666427eaba4469fba0ac38dfd0d34
+  languageName: node
+  linkType: hard
+
+"optimist@npm:0.3.5":
+  version: 0.3.5
+  resolution: "optimist@npm:0.3.5"
+  dependencies:
+    wordwrap: ~0.0.2
+  checksum: feff8b3aa113c1d4d7da210b6d4bc81680702c48e7225bfdf7750907371dfb56fb1eb30f1766397319797bd37a438a5d56c79a435df2d37d32eb19b630ac920f
   languageName: node
   linkType: hard
 
@@ -3034,9 +3097,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "palantir-ui-solid@workspace:."
   dependencies:
+    "@nicholas-roether/palantir-ui": ^2.0.0
     eslint: ^8.41.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-solid: ^0.12.1
+    npm-css: ^0.2.3
     prettier: ^2.8.8
     solid-js: ^1.7.5
     tslib: ^2.5.2
@@ -3175,6 +3240,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"q@npm:0.8.x, q@npm:~0.8.10":
+  version: 0.8.12
+  resolution: "q@npm:0.8.12"
+  checksum: b15ee52d917d9e8b0675f113d6ee52ec8088a22e982121c0bfa720258f405931887a4fd21bd8f60ddc042c37107278328b1df6eb6ba1e7b5719a0a0594f13357
+  languageName: node
+  linkType: hard
+
 "queue-microtask@npm:^1.2.2":
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
@@ -3224,6 +3296,20 @@ __metadata:
   version: 5.0.0
   resolution: "resolve-from@npm:5.0.0"
   checksum: 4ceeb9113e1b1372d0cd969f3468fa042daa1dd9527b1b6bb88acb6ab55d8b9cd65dbf18819f9f9ddf0db804990901dcdaade80a215e7b2c23daae38e64f5bdf
+  languageName: node
+  linkType: hard
+
+"resolve@npm:0.5.1":
+  version: 0.5.1
+  resolution: "resolve@npm:0.5.1"
+  checksum: 165f53ae123baf447e5e2e96635c93f56961ecce4e24660839d62dcb64c6eb2546279e943660f8e0b84218a82d92c5688b21fe7f03b5fe3fd49738df715ab0a6
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@0.5.1#~builtin<compat/resolve>":
+  version: 0.5.1
+  resolution: "resolve@patch:resolve@npm%3A0.5.1#~builtin<compat/resolve>::version=0.5.1&hash=3bafbf"
+  checksum: a127e00978dd491d9ae0363d799d7e8f9c8f01fe52c84f3b3de2659fe036e06660922df7c081a0fc4e9cf748a10f6fe39e920109b5ee9dcd35b5636830a66330
   languageName: node
   linkType: hard
 
@@ -3636,6 +3722,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"traverse@npm:0.6.6":
+  version: 0.6.6
+  resolution: "traverse@npm:0.6.6"
+  checksum: e2afa72f11efa9ba31ed763d2d9d2aa244612f22015d16c0ea3ba5f6ca8bf071de87f8108b721885cce06ea4a36ef4605d9228c67e431d9015ea4685cb364420
+  languageName: node
+  linkType: hard
+
 "tree-kill@npm:^1.2.2":
   version: 1.2.2
   resolution: "tree-kill@npm:1.2.2"
@@ -3776,6 +3869,15 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: d26b6ba97b6d163c55dbdffd9bbb4c211667ebebc743accfeb2c8c0154aace7afd097b51165a72a5bad2cf65a4612259344ff60f8e642362aa1695c760d303ac
+  languageName: node
+  linkType: hard
+
+"uglify-js@npm:1.3.x":
+  version: 1.3.5
+  resolution: "uglify-js@npm:1.3.5"
+  bin:
+    uglifyjs: ./bin/uglifyjs
+  checksum: 09fbdca3f34bbea22db90b25b584884f69653e1df57ae9cb531d1bcca34a44b896d623807bc1d60f90d5eb15057a0cf6dd1b76f3eb12ac528ab94e104def47fb
   languageName: node
   linkType: hard
 
@@ -3982,6 +4084,13 @@ __metadata:
   version: 1.2.3
   resolution: "word-wrap@npm:1.2.3"
   checksum: 30b48f91fcf12106ed3186ae4fa86a6a1842416df425be7b60485de14bec665a54a68e4b5156647dec3a70f25e84d270ca8bc8cd23182ed095f5c7206a938c1f
+  languageName: node
+  linkType: hard
+
+"wordwrap@npm:~0.0.2":
+  version: 0.0.3
+  resolution: "wordwrap@npm:0.0.3"
+  checksum: dfc2d3512e857ae4b3bc2e8d4e5d2c285c28a4b87cd1d81c977ce9a1a99152d355807e046851a3d61148f39d877fbb889352e07b65a9cbdd2256aa928e159026
   languageName: node
   linkType: hard
 
