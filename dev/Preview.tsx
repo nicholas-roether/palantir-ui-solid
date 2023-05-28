@@ -1,5 +1,5 @@
 import { JSX } from "solid-js";
-import { Heading, Paragraph, Button, TextInput } from "../src";
+import { Heading, Paragraph, Button, TextInput, Surface, Card } from "../src";
 
 function Preview(): JSX.Element {
 	return (
@@ -15,6 +15,9 @@ function Preview(): JSX.Element {
 			</Button>
 			<br />
 			<TextInput placeholder="1234" />
+			<Surface>Div Surface</Surface>
+			<Surface component="span">Span surface</Surface>
+			<Card>This is a card</Card>
 		</>
 	);
 }
