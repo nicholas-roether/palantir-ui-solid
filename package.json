@@ -1,10 +1,10 @@
 {
   "name": "@nicholas-roether/palantir-ui-solid",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "dev": "vite serve dev",
-    "build": "tsup src/index.ts",
+    "build": "tsup src/index.ts --dts",
     "prepack": "yarn build"
   },
   "devDependencies": {
