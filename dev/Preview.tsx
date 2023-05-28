@@ -1,7 +1,5 @@
 import { JSX } from "solid-js";
-import { Heading, Paragraph } from "../src";
-import { Button } from "../src";
-import { TextInput } from "../src/components/input";
+import { Heading, Paragraph, Button, TextInput } from "../src";
 
 function Preview(): JSX.Element {
 	return (
