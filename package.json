@@ -8,7 +8,7 @@
     "prepack": "yarn build"
   },
   "devDependencies": {
-    "@nicholas-roether/palantir-ui": "^2.0.0",
+    "@nicholas-roether/palantir-ui": "^2.1.0",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-solid": "^0.12.1",
@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "solid-js": "^1.7.5"
+  },
+  "peerDependencies": {
+    "@nicholas-roether/palantir-ui": "~2.0.0"
   }
 }
