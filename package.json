@@ -1,6 +1,6 @@
 {
   "name": "@nicholas-roether/palantir-ui-solid",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "dev": "vite serve dev",
