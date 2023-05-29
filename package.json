@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "vite serve dev",
     "build": "tsup",
-    "prepack": "yarn build"
+    "prepack": "yarn build",
+    "lint": "tsc --noEmit && eslint ./src"
   },
   "devDependencies": {
     "@nicholas-roether/palantir-ui": "^2.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-solid": "^0.12.1",
