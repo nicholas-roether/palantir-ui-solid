@@ -1,4 +1,4 @@
-import { ComponentProps, JSX } from "solid-js";
+import { ComponentProps, JSX, splitProps } from "solid-js";
 import { Dynamic } from "solid-js/web";
 
 interface BaseButtonProps {
@@ -16,25 +16,21 @@ interface LinkButtonProps extends BaseButtonProps, ComponentProps<"a"> {
 
 type ButtonProps = ActionButtonProps | LinkButtonProps;
 
-function Button({
-	large = false,
-	smoldering = false,
-	href,
-	classList,
-	...props
-}: ButtonProps): JSX.Element {
-	const component = href ? "a" : "button";
+function Button(props: ButtonProps): JSX.Element {
+	const [local, others] = splitProps(props, ["href", "large", "smoldering", "classList"]);
+
+	const component = (): string => local.href ? "a" : "button";
 	return (
 		<Dynamic
-			component={component}
-			href={href}
+			component={component()}
+			href={local.href}
 			classList={{
 				"pui-button": true,
-				"pui-large": large,
-				"pui-smoldering": smoldering,
-				...classList,
+				"pui-large": local.large,
+				"pui-smoldering": local.smoldering,
+				...local.classList,
 			}}
-			{...props}
+			{...others}
 		/>
 	);
 }

@@ -1,24 +1,25 @@
-import { ComponentProps, JSX } from "solid-js";
+import { ComponentProps, JSX, splitProps } from "solid-js";
 
 interface TextInputProps extends Omit<ComponentProps<"input">, "type"> {
 	inputClass?: string;
 	inputClassList?: Record<string, boolean | undefined>;
 }
 
-function TextInput({
-	class: spanClass,
-	inputClass,
-	inputClassList,
-	classList,
-	...props
-}: TextInputProps): JSX.Element {
+function TextInput(props: TextInputProps): JSX.Element {
+	const [local, others] = splitProps(props, [
+		"inputClass",
+		"inputClassList",
+		"class",
+		"classList"
+	]);
+
 	return (
-		<span class={spanClass} classList={{ "pui-input": true, ...classList }}>
+		<span class={local.class} classList={{ "pui-input": true, ...local.classList }}>
 			<input
 				type="text"
-				class={inputClass}
-				classList={inputClassList}
-				{...props}
+				class={local.inputClass}
+				classList={local.inputClassList}
+				{...others}
 			/>
 		</span>
 	);

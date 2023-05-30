@@ -1,28 +1,24 @@
-import { ComponentProps, JSX, ValidComponent } from "solid-js";
-import { Dynamic } from "solid-js/web";
+import { ComponentProps, JSX, splitProps } from "solid-js";
 
-type SurfaceProps<T extends ValidComponent = "div"> = ComponentProps<T> & {
-	component?: T;
-};
+type SurfaceProps = ComponentProps<"div">;
 
-function Surface<T extends ValidComponent>({
-	component = "div",
-	classList,
-	...props
-}: SurfaceProps<T>): JSX.Element {
+function Surface(props: SurfaceProps): JSX.Element {
+	const [local, others] = splitProps(props, ["classList"]);
+
 	return (
-		<Dynamic
-			component={component}
-			classList={{ "pui-surface": true, ...classList }}
-			{...props}
+		<div
+			classList={{ "pui-surface": true, ...local.classList }}
+			{...others}
 		/>
 	);
 }
 
-interface CardProps extends ComponentProps<"div"> {}
+type CardProps = ComponentProps<"div">;
 
-function Card({ classList, ...props }: CardProps): JSX.Element {
-	return <div classList={{ "pui-card": true, ...classList }} {...props} />;
+function Card(props: CardProps): JSX.Element {
+	const [local, others] = splitProps(props, ["classList"]);
+
+	return <div classList={{ "pui-card": true, ...local.classList }} {...others} />;
 }
 
 export { Surface, SurfaceProps, Card, CardProps };

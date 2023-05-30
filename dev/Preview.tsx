@@ -16,7 +16,6 @@ function Preview(): JSX.Element {
 			<br />
 			<TextInput placeholder="1234" />
 			<Surface>Div Surface</Surface>
-			<Surface component="span">Span surface</Surface>
 			<Card>This is a card</Card>
 		</>
 	);
