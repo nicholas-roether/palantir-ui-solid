@@ -1,5 +1,11 @@
-import { JSX } from "solid-js";
+import { JSX, createSignal } from "solid-js";
 import { Heading, Paragraph, Button, TextInput, Surface, Card } from "../src";
+
+function CardToggle(): JSX.Element {
+	const [state, setState] = createSignal(false);
+
+	return <Card onClick={() => setState(state => !state)}>{state().toString()}</Card>
+}
 
 function Preview(): JSX.Element {
 	return (
@@ -17,6 +23,7 @@ function Preview(): JSX.Element {
 			<TextInput placeholder="1234" />
 			<Surface>Div Surface</Surface>
 			<Card>This is a card</Card>
+			<CardToggle />
 		</>
 	);
 }
