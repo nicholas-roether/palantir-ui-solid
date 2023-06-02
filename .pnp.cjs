@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-solid", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:0.12.1"],\
             ["npm-css", "npm:0.2.3"],\
             ["prettier", "npm:2.8.8"],\
-            ["solid-js", "npm:1.7.5"],\
+            ["solid-js", "npm:1.7.6"],\
             ["tslib", "npm:2.5.2"],\
             ["tsup", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:6.7.0"],\
             ["tsup-preset-solid", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:0.1.8"],\
@@ -1025,7 +1025,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-solid", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:0.12.1"],\
             ["npm-css", "npm:0.2.3"],\
             ["prettier", "npm:2.8.8"],\
-            ["solid-js", "npm:1.7.5"],\
+            ["solid-js", "npm:1.7.6"],\
             ["tslib", "npm:2.5.2"],\
             ["tsup", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:6.7.0"],\
             ["tsup-preset-solid", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:0.1.8"],\
@@ -4491,10 +4491,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["solid-js", [\
-        ["npm:1.7.5", {\
-          "packageLocation": "./.yarn/cache/solid-js-npm-1.7.5-8ebd908c10-45d68b3b49.zip/node_modules/solid-js/",\
+        ["npm:1.7.6", {\
+          "packageLocation": "./.yarn/cache/solid-js-npm-1.7.6-3be3be5580-35306e7f16.zip/node_modules/solid-js/",\
           "packageDependencies": [\
-            ["solid-js", "npm:1.7.5"],\
+            ["solid-js", "npm:1.7.6"],\
             ["csstype", "npm:3.1.2"],\
             ["seroval", "npm:0.5.1"]\
           ],\
@@ -4517,7 +4517,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-module-imports", "npm:7.21.4"],\
             ["@babel/types", "npm:7.22.3"],\
             ["@types/solid-js", null],\
-            ["solid-js", "npm:1.7.5"]\
+            ["solid-js", "npm:1.7.6"]\
           ],\
           "packagePeers": [\
             "@types/solid-js",\
@@ -5110,7 +5110,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/vite", null],\
             ["babel-preset-solid", "virtual:212a7247a617549faeed2b1977e752db68273064683a2126c2d59e73f4aa598aea33dbe236fa105c69d26f3a092b98cb67068fa12e70e7dc1c25f579de7eaba3#npm:1.7.4"],\
             ["merge-anything", "npm:5.1.7"],\
-            ["solid-js", "npm:1.7.5"],\
+            ["solid-js", "npm:1.7.6"],\
             ["solid-refresh", "virtual:212a7247a617549faeed2b1977e752db68273064683a2126c2d59e73f4aa598aea33dbe236fa105c69d26f3a092b98cb67068fa12e70e7dc1c25f579de7eaba3#npm:0.5.2"],\
             ["vite", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:4.3.9"],\
             ["vitefu", "virtual:212a7247a617549faeed2b1977e752db68273064683a2126c2d59e73f4aa598aea33dbe236fa105c69d26f3a092b98cb67068fa12e70e7dc1c25f579de7eaba3#npm:0.2.4"]\
