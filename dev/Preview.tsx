@@ -21,6 +21,7 @@ function Preview(): JSX.Element {
 			</Button>
 			<br />
 			<TextInput placeholder="1234" />
+			<TextInput type="password" />
 			<Surface>Div Surface</Surface>
 			<Card>This is a card</Card>
 			<CardToggle />
