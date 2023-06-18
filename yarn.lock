@@ -672,7 +672,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nicholas-roether/palantir-ui-solid@workspace:."
   dependencies:
-    "@nicholas-roether/palantir-ui": ^2.2.0
+    "@nicholas-roether/palantir-ui": ^2.4.0
     "@typescript-eslint/eslint-plugin": ^5.59.8
     "@typescript-eslint/parser": ^5.59.8
     eslint: ^8.41.0
@@ -688,15 +688,14 @@ __metadata:
     vite: ^4.3.9
     vite-plugin-solid: ^2.7.0
   peerDependencies:
-    "@nicholas-roether/palantir-ui": ~2.2.0
-    solid-js: "*"
+    "@nicholas-roether/palantir-ui": ~2.4.0
   languageName: unknown
   linkType: soft
 
-"@nicholas-roether/palantir-ui@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@nicholas-roether/palantir-ui@npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f"
-  checksum: 07311978717fe647239fd60738159e18aaf038c94cae09c9e572d65d807973f69fb8c634b81e2ea7e9d8e0cccaf1f68a8ffcb537c6e3ebf9b468c88e57085bb0
+"@nicholas-roether/palantir-ui@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@nicholas-roether/palantir-ui@npm:2.4.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.4.0%2F8e3a7e5518fd4c052631fe83b8b174b13e191701"
+  checksum: a0839705487cdd94377b41c1edc7d89af522a8b95031c620a4403561247e21081a84f87f6cb7026308660d06eb8dd66e58f3436866e7b7f5fa3a65a4b70f9292
   languageName: node
   linkType: hard
 

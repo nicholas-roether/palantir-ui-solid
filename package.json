@@ -9,7 +9,7 @@
     "lint": "tsc --noEmit && eslint ./src"
   },
   "devDependencies": {
-    "@nicholas-roether/palantir-ui": "^2.3.0",
+    "@nicholas-roether/palantir-ui": "^2.4.0",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
     "eslint": "^8.41.0",
@@ -26,7 +26,7 @@
     "vite-plugin-solid": "^2.7.0"
   },
   "peerDependencies": {
-    "@nicholas-roether/palantir-ui": "~2.3.0"
+    "@nicholas-roether/palantir-ui": "~2.4.0"
   },
   "files": [
     "dist/*"

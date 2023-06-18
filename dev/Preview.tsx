@@ -1,5 +1,5 @@
 import { JSX, createSignal } from "solid-js";
-import { Heading, Paragraph, Button, TextInput, Surface, Card } from "../src";
+import { Heading, Paragraph, Button, TextInput, Surface, Card, Error } from "../src";
 
 function CardToggle(): JSX.Element {
 	const [state, setState] = createSignal(false);
@@ -25,6 +25,7 @@ function Preview(): JSX.Element {
 			<Surface>Div Surface</Surface>
 			<Card>This is a card</Card>
 			<CardToggle />
+			<Error>This is an error!</Error>
 		</>
 	);
 }

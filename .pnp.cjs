@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f"],\
+            ["@nicholas-roether/palantir-ui", "npm:2.4.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.4.0%2F8e3a7e5518fd4c052631fe83b8b174b13e191701"],\
             ["@typescript-eslint/eslint-plugin", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:5.59.8"],\
             ["@typescript-eslint/parser", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:5.59.8"],\
             ["eslint", "npm:8.41.0"],\
@@ -1004,10 +1004,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nicholas-roether/palantir-ui", [\
-        ["npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f", {\
-          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-npm-2.2.0-8a69d2f58d-0731197871.zip/node_modules/@nicholas-roether/palantir-ui/",\
+        ["npm:2.4.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.4.0%2F8e3a7e5518fd4c052631fe83b8b174b13e191701", {\
+          "packageLocation": "./.yarn/cache/@nicholas-roether-palantir-ui-npm-2.4.0-67aec7a57d-a083970548.zip/node_modules/@nicholas-roether/palantir-ui/",\
           "packageDependencies": [\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f"]\
+            ["@nicholas-roether/palantir-ui", "npm:2.4.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.4.0%2F8e3a7e5518fd4c052631fe83b8b174b13e191701"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1017,7 +1017,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@nicholas-roether/palantir-ui-solid", "workspace:."],\
-            ["@nicholas-roether/palantir-ui", "npm:2.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.2.0%2F8776d00b8f16e2cb1a5042c41825866d82aeeb3f"],\
+            ["@nicholas-roether/palantir-ui", "npm:2.4.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40nicholas-roether%2Fpalantir-ui%2F2.4.0%2F8e3a7e5518fd4c052631fe83b8b174b13e191701"],\
             ["@typescript-eslint/eslint-plugin", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:5.59.8"],\
             ["@typescript-eslint/parser", "virtual:fa9e10d42c6af35b9bc51737be990a8939ec140d930d2066fa2966a66d123fe74ee5020c5a8e67a72ff1c56e553e1f1301314ece1856a065f2d601d536d9f287#npm:5.59.8"],\
             ["eslint", "npm:8.41.0"],\
